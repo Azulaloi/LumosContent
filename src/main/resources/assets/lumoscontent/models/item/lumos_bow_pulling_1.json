@@ -1,0 +1,6 @@
+{
+  "parent": "lumoscontent:item/lumos_bow",
+  "textures": {
+    "layer0": "lumoscontent:items/lumos_bow_pulling_1"
+  }
+}

@@ -66,6 +66,8 @@ public class ModItems {
     public static Item paleHoe = new ItemBaseHoe(LumosMaterials.TOOL_PALE, "pale_hoe");
     public static Item paleSword = new ItemBaseSword(LumosMaterials.TOOL_PALE, "pale_sword");
 
+    public static Item lumosBow = new ItemBaseBow("lumos_bow");
+
 
     //MATERIALS
 
@@ -94,26 +96,31 @@ public class ModItems {
     public static Item chainsheetCopper = new BaseItem("copper_chainsheet");
     public static Item scaleCopper = new BaseItem("copper_scale");
     public static Item scalesheetCopper = new BaseItem("copper_scalesheet");
+    public static Item plateCopper = new BaseItem("copper_plate");
 
     public static Item chainlinkRedbronze = new BaseItem("red_chainlink");
     public static Item chainsheetRedbronze = new BaseItem("red_chainsheet");
     public static Item scaleRedbronze = new BaseItem("red_scale");
     public static Item scalesheetRedbronze = new BaseItem("red_scalesheet");
+    public static Item plateRedbronze = new BaseItem("red_plate");
 
     public static Item chainlinkBluebronze = new BaseItem("blue_chainlink");
     public static Item chainsheetBluebronze = new BaseItem("blue_chainsheet");
     public static Item scaleBluebronze = new BaseItem("blue_scale");
     public static Item scalesheetBluebronze = new BaseItem("blue_scalesheet");
+    public static Item plateBluebronze = new BaseItem("blue_plate");
 
     public static Item chainlinkScorchsteel = new BaseItem("scorch_chainlink");
     public static Item chainsheetScorchsteel = new BaseItem("scorch_chainsheet");
     public static Item scaleScorchsteel = new BaseItem("scorch_scale");
     public static Item scalesheetScorchsteel = new BaseItem("scorch_scalesheet");
+    public static Item plateScorchsteel = new BaseItem("scorch_plate");
 
     public static Item chainlinkPalebrass = new BaseItem("pale_chainlink");
     public static Item chainsheetPalebrass = new BaseItem("pale_chainsheet");
     public static Item scalePalebrass = new BaseItem("pale_scale");
     public static Item scalesheetPalebrass = new BaseItem("pale_scalesheet");
+    public static Item platePalebrass = new BaseItem("pale_plate");
 
 
     //ARMOR
@@ -245,6 +252,8 @@ public class ModItems {
             paleSpade,
             paleHoe,
             paleSword,
+
+            lumosBow,
 
             //MATERIALS
 

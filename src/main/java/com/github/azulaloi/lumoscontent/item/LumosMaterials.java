@@ -41,7 +41,13 @@ public class LumosMaterials {
             "PALEBRASS", 4, 1982, 3.5F, 2.6F, 25);
 
     //ARMOR
-    //name, texturename, durability, reductionamounts, enchantibility, soundonequip, toughness
+
+    //name    texturename durability  reductionamounts enchantibility soundonequip               toughness
+    //LEATHER ("leather",   5,  new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F),
+    //CHAIN   ("chainmail", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN,   0.0F),
+    //IRON    ("iron",      15, new int[]{2, 5, 6, 2}, 9,  SoundEvents.ITEM_ARMOR_EQUIP_IRON,    0.0F),
+    //GOLD    ("gold",      7,  new int[]{1, 3, 5, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,    0.0F),
+    //DIAMOND ("diamond",   33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
 
     public static ItemArmor.ArmorMaterial CHAIN_COPPER = EnumHelper.addArmorMaterial("CHAIN_COPPER", "chain_copper", 20, new int[]{2,5,7,2},15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0F);
     public static ItemArmor.ArmorMaterial SCALE_COPPER = EnumHelper.addArmorMaterial("SCALE_COPPER", "scale_copper", 20, new int[]{2,5,7,2},15, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0F);
