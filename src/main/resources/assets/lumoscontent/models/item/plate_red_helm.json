@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "lumoscontent:items/plate_red_helm"
+  }
+}

@@ -1,0 +1,180 @@
+item.lumoscontent.flint_pick.name=Primitive Handpick
+item.lumoscontent.flint_axe.name=Primitive Hatchet
+
+item.lumoscontent.stone_pick.name=Stone Handpick
+item.lumoscontent.stone_axe.name=Stone Hatchet
+item.lumoscontent.stone_spade.name=Stone Spade
+
+item.lumoscontent.copper_ingot.name=Copper Ingot
+item.lumoscontent.copper_nugget.name=Copper Nugget
+item.lumoscontent.copper_pick.name=Copper Pickaxe
+item.lumoscontent.copper_axe.name=Copper Axe
+item.lumoscontent.copper_spade.name=Copper Spade
+item.lumoscontent.copper_hoe.name=Copper Hoe
+item.lumoscontent.copper_sword.name=Copper Sword
+
+
+item.lumoscontent.redbronze_ingot.name=Crimbronze Ingot
+item.lumoscontent.redbronze_nugget.name=Crimbronze Nugget
+item.lumoscontent.red_pick.name=Crimbronze Pickaxe
+item.lumoscontent.red_axe.name=Crimbronze Axe
+item.lumoscontent.red_spade.name=Crimbronze Spade
+item.lumoscontent.red_hoe.name=Crimbronze Hoe
+item.lumoscontent.red_sword.name=Crimbronze Sword
+
+item.lumoscontent.bluebronze_ingot.name=Cerubronze Ingot
+item.lumoscontent.bluebronze_nugget.name=Cerubronze Nugget
+item.lumoscontent.blue_pick.name=Cerubronze Pickaxe
+item.lumoscontent.blue_axe.name=Cerubronze Axe
+item.lumoscontent.blue_spade.name=Cerubronze Spade
+item.lumoscontent.blue_hoe.name=Cerubronze Hoe
+item.lumoscontent.blue_sword.name=Cerubronze Sword
+
+item.lumoscontent.scorchsteel_ingot.name=Scorchsteel Ingot
+item.lumoscontent.scorchsteel_nuggest.name=Scorchsteel Nugget
+item.lumoscontent.scorch_pick.name=Scorchsteel Pickaxe
+item.lumoscontent.scorch_axe.name=Scorchsteel Axe
+item.lumoscontent.scorch_spade.name=Scorchsteel Spade
+item.lumoscontent.scorch_hoe.name=Scorchsteel Hoe
+item.lumoscontent.scorch_sword.name=Scorchsteel Sword
+
+item.lumoscontent.palebrass_ingot.name=Palebrass Ingot
+item.lumoscontent.palebrass_nugget.name=Palebrass Nugget
+item.lumoscontent.pale_pick.name=Palebrass Pickaxe
+item.lumoscontent.pale_axe.name=Palebrass Axe
+item.lumoscontent.pale_spade.name=Palebrass Spade
+item.lumoscontent.pale_hoe.name=Palebrass Hoe
+item.lumoscontent.pale_sword.name=Palebrass Sword
+
+item.lumoscontent.diamantine_pick.name=Diamantine Pickaxe
+item.lumoscontent.diamantine_axe.name=Diamantine Axe
+item.lumoscontent.diamantine_spade.name=Diamantine Spade
+item.lumoscontent.diamantine_hoe.name=Diamantine Hoe
+item.lumoscontent.diamantine_sword.name=Diamantine Sword
+
+item.lumoscontent.plant_fibre.name=Plant Fibre
+item.lumoscontent.binding_fibre.name=Fibrous Binding
+item.lumoscontent.leather_strip.name=Leather Strip
+item.lumoscontent.tool_handle.name=Tool Handle
+
+item.lumoscontent.red_catalyst.name=Crimson Catalyst
+item.lumoscontent.blue_catalyst.name=Cerulean Catalyst
+
+material.lumoscontent.copper=Copper
+material.lumoscontent.iron=Wrought Iron
+material.lumoscontent.crimbronze=Crimbronze
+material.lumoscontent.cerubronze=Cerubronze
+material.lumoscontent.diamantine=Diamantine
+material.lumoscontent.scorchsteel=Scorchsteel
+material.lumoscontent.palebrass=Palebrass
+
+item.lumoscontent.chain_copper_helm.name=Copper Chainmaille Helm
+item.lumoscontent.chain_copper_chest.name=Copper Chainmaille Hauberk
+item.lumoscontent.chain_copper_legs.name=Copper Chainmaille Pantaloons
+item.lumoscontent.chain_copper_boots.name=Copper Chainmaille Treads
+
+item.lumoscontent.chain_red_helm.name=Crimsmaille Helm
+item.lumoscontent.chain_red_chest.name=Crimsmaille Hauberk
+item.lumoscontent.chain_red_legs.name=Crimsmaille Leggings
+item.lumoscontent.chain_red_boots.name=Crimsmaille Treads
+
+item.lumoscontent.chain_blue_helm.name=Cerumaille Helm
+item.lumoscontent.chain_blue_chest.name=Cerumaille Hauberk
+item.lumoscontent.chain_blue_legs.name=Cerumaille Leggings
+item.lumoscontent.chain_blue_boots.name=Cerumaille Treads
+
+item.lumoscontent.chain_scorch_helm.name=Scorchmaille Helm
+item.lumoscontent.chain_scorch_chest.name=Scorchmaille Hauberk
+item.lumoscontent.chain_scorch_legs.name=Scorchmaille Leggings
+item.lumoscontent.chain_scorch_boots.name=Scorchmaille Treads
+
+item.lumoscontent.chain_pale_helm.name=Palemaille Helm
+item.lumoscontent.chain_pale_chest.name=Palemaille Hauberk
+item.lumoscontent.chain_pale_legs.name=Palemaille Leggings
+item.lumoscontent.chain_pale_boots.name=Palemaille Treads
+
+
+item.lumoscontent.scale_copper_helm.name=Copper Scalemaille Helm
+item.lumoscontent.scale_copper_chest.name=Copper Scalemaille Hauberk
+item.lumoscontent.scale_copper_legs.name=Copper Scalemaille Leggings
+item.lumoscontent.scale_copper_boots.name=Copper Scalemaille Treads
+
+item.lumoscontent.scale_red_helm.name=Crimscale Helm
+item.lumoscontent.scale_red_chest.name=Crimscale Hauberk
+item.lumoscontent.scale_red_legs.name=Crimscale Leggings
+item.lumoscontent.scale_red_boots.name=Crimscale Treads
+
+item.lumoscontent.scale_blue_helm.name=Ceruscale Helm
+item.lumoscontent.scale_blue_chest.name=Ceruscale Hauberk
+item.lumoscontent.scale_blue_legs.name=Ceruscale Leggings
+item.lumoscontent.scale_blue_boots.name=Ceruscale Treads
+
+item.lumoscontent.scale_scorch_helm.name=Scorchscale Helm
+item.lumoscontent.scale_scorch_chest.name=Scorchscale Hauberk
+item.lumoscontent.scale_scorch_legs.name=Scorchscale Leggings
+item.lumoscontent.scale_scorch_boots.name=Scorchscale Treads
+
+item.lumoscontent.scale_pale_helm.name=Palescale Helm
+item.lumoscontent.scale_pale_chest.name=Palescale Hauberk
+item.lumoscontent.scale_pale_legs.name=Palescale Leggings
+item.lumoscontent.scale_pale_boots.name=Palescale Treads
+
+
+item.lumoscontent.plate_copper_helm.name=Copper Plate Helm
+item.lumoscontent.plate_copper_chest.name=Copper Plate Hauberk
+item.lumoscontent.plate_copper_legs.name=Copper Plate Leggings
+item.lumoscontent.plate_copper_boots.name=Copper Plate Treads
+
+item.lumoscontent.plate_red_helm.name=Crimplate Helm
+item.lumoscontent.plate_red_chest.name=Crimplate Hauberk
+item.lumoscontent.plate_red_legs.name=Crimplate Leggings
+item.lumoscontent.plate_red_boots.name=Crimplate Treads
+
+item.lumoscontent.plate_blue_helm.name=Ceruplate Helm
+item.lumoscontent.plate_blue_chest.name=Ceruplate Hauberk
+item.lumoscontent.plate_blue_legs.name=Ceruplate Leggings
+item.lumoscontent.plate_blue_boots.name=Ceruplate Treads
+
+item.lumoscontent.plate_scorch_helm.name=Scorchplate Helm
+item.lumoscontent.plate_scorch_chest.name=Scorchplate Hauberk
+item.lumoscontent.plate_scorch_legs.name=Scorchplate Leggings
+item.lumoscontent.plate_scorch_boots.name=Scorchplate Treads
+
+item.lumoscontent.plate_pale_helm.name=Paleplate Helm
+item.lumoscontent.plate_pale_chest.name=Paleplate Hauberk
+item.lumoscontent.plate_pale_legs.name=Paleplate Leggings
+item.lumoscontent.plate_pale_boots.name=Paleplate Treads
+
+
+
+item.lumoscontent.copper_chainlink.name=Copper Chainlink
+item.lumoscontent.copper_chainsheet.name=Copper Chainsheet
+item.lumoscontent.copper_scale.name=Copper Scale
+item.lumoscontent.copper_scalesheet.name=Copper Scalesheet
+
+item.lumoscontent.red_chainlink.name=Crimbronze Chainlink
+item.lumoscontent.red_chainsheet.name=Crimbronze Chainsheet
+item.lumoscontent.red_scale.name=Crimbronze Scale
+item.lumoscontent.red_scalesheet.name=Crimbronze Scalesheet
+
+item.lumoscontent.blue_chainlink.name=Cerubronze Chainlink
+item.lumoscontent.blue_chainsheet.name=Cerubronze Chainsheet
+item.lumoscontent.blue_scale.name=Cerubronze Scale
+item.lumoscontent.blue_scalesheet.name=Cerubronze Scalesheet
+
+item.lumoscontent.scorch_chainlink.name=Scorchsteel Chainlink
+item.lumoscontent.scorch_chainsheet.name=Scorchsteel Chainsheet
+item.lumoscontent.scorch_scale.name=Scorchsteel Scale
+item.lumoscontent.scorch_scalesheet.name=Scorchsteel Scalesheet
+
+item.lumoscontent.pale_chainlink.name=Palebrass Chainlink
+item.lumoscontent.pale_chainsheet.name=Palebrass Chainsheet
+item.lumoscontent.pale_scale.name=Palebrass Scale
+item.lumoscontent.pale_scalesheet.name=Palebrass Scalesheet
+
+tile.lumoscontent.copper_ore.name=Copper Ore
+tile.lumoscontent.copper_block.name=Copper Block
+tile.lumoscontent.redbronze_block.name=Crimbronze Block
+tile.lumoscontent.scorchsteel_block.name=Scorchsteel Block
+tile.lumoscontent.palebrass_block.name=Palebrass Block
+

@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "lumoscontent",
+    "name": "Lumos Content",
+    "description": "Adds content for the modpack Lumos Equinox.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/Azulaloi",
+    "updateUrl": "",
+    "authors": ["Azulaloi"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
