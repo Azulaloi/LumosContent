@@ -1,7 +1,7 @@
 package com.github.azulaloi.lumoscontent;
 
 import com.github.azulaloi.lumoscontent.block.BaseBlock;
-import com.github.azulaloi.lumoscontent.proxy.ClientProxy;
+import com.github.azulaloi.lumoscontent.block.BlockCrop;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
@@ -25,36 +25,41 @@ public class ModBlocks {
     public static Block blockScorchsteel = new BaseBlock("scorchsteel_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 0);
     public static Block blockPalebrass = new BaseBlock("palebrass_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 0);
 
+    public static BlockCrop blockFlax= new BlockCrop("flax", ModItems.flaxFibre) {
+        @Override
+        public Item getSeed() {
+            return Item.getItemFromBlock(this);
+        }
+    };
+
+    public static Block[] blocksOut = {
+            oreCopper,
+            blockCopper,
+            blockRedbronze,
+            blockBluebronze,
+            blockScorchsteel,
+            blockPalebrass,
+            blockFlax
+    };
+
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
-        event.getRegistry().registerAll(
-                oreCopper,
-                blockCopper,
-                blockRedbronze,
-                blockBluebronze,
-                blockScorchsteel,
-                blockPalebrass
-        );
+
+        for (Block blockIn : blocksOut) event.getRegistry().register(blockIn);
     }
 
     @SubscribeEvent
     public static void registerBlockItems(RegistryEvent<Item> event) {
-        registerBlockItem(oreCopper);
-        registerBlockItem(blockCopper);
-        registerBlockItem(blockRedbronze);
-        registerBlockItem(blockBluebronze);
-        registerBlockItem(blockScorchsteel);
-        registerBlockItem(blockPalebrass);
+
+        for (Block blockIn : blocksOut) registerBlockItem(blockIn);
+
     }
 
     @SideOnly(Side.CLIENT)
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
-        registerItemModel(Item.getItemFromBlock(oreCopper));
-        registerItemModel(Item.getItemFromBlock(blockCopper));
-        registerItemModel(Item.getItemFromBlock(blockRedbronze));
-        registerItemModel(Item.getItemFromBlock(blockBluebronze));
-        registerItemModel(Item.getItemFromBlock(blockScorchsteel));
-        registerItemModel(Item.getItemFromBlock(blockPalebrass));
+
+        for (Block blockIn : blocksOut) registerItemModel(Item.getItemFromBlock(blockIn));
+
     }
 }

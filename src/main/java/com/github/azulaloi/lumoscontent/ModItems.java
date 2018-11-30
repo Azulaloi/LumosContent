@@ -2,6 +2,7 @@ package com.github.azulaloi.lumoscontent;
 
 import com.github.azulaloi.lumoscontent.item.BaseItem;
 import com.github.azulaloi.lumoscontent.item.LumosMaterials;
+import com.github.azulaloi.lumoscontent.item.Seeds;
 import com.github.azulaloi.lumoscontent.item.armor.BaseArmor;
 import com.github.azulaloi.lumoscontent.item.tools.*;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -205,6 +206,9 @@ public class ModItems {
     public static Item redCatalyst = new BaseItem("red_catalyst");
     public static Item blueCatalyst = new BaseItem("blue_catalyst");
 
+    //PLANTS
+
+    public static Item flaxFibre = new BaseItem("flax_fibre");
 
     public static Item[] itemsOut = {
 
@@ -366,7 +370,8 @@ public class ModItems {
             plateHelmPale,
             plateTorsoPale,
             plateLegsPale,
-            plateBootsPale
+            plateBootsPale,
+            flaxFibre
     };
 
     @SubscribeEvent

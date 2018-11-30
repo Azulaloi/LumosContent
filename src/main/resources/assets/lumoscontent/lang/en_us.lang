@@ -68,29 +68,29 @@ material.lumoscontent.diamantine=Diamantine
 material.lumoscontent.scorchsteel=Scorchsteel
 material.lumoscontent.palebrass=Palebrass
 
-item.lumoscontent.chain_copper_helm.name=Copper Chainmaille Helm
+item.lumoscontent.chain_copper_helm.name=Copper Chainmaille Coif
 item.lumoscontent.chain_copper_chest.name=Copper Chainmaille Hauberk
-item.lumoscontent.chain_copper_legs.name=Copper Chainmaille Pantaloons
+item.lumoscontent.chain_copper_legs.name=Copper Chainmaille Chausses
 item.lumoscontent.chain_copper_boots.name=Copper Chainmaille Treads
 
-item.lumoscontent.chain_red_helm.name=Crimsmaille Helm
+item.lumoscontent.chain_red_helm.name=Crimsmaille Coif
 item.lumoscontent.chain_red_chest.name=Crimsmaille Hauberk
-item.lumoscontent.chain_red_legs.name=Crimsmaille Leggings
+item.lumoscontent.chain_red_legs.name=Crimsmaille Chausses
 item.lumoscontent.chain_red_boots.name=Crimsmaille Treads
 
-item.lumoscontent.chain_blue_helm.name=Cerumaille Helm
+item.lumoscontent.chain_blue_helm.name=Cerumaille Coif
 item.lumoscontent.chain_blue_chest.name=Cerumaille Hauberk
-item.lumoscontent.chain_blue_legs.name=Cerumaille Leggings
+item.lumoscontent.chain_blue_legs.name=Cerumaille Chausses
 item.lumoscontent.chain_blue_boots.name=Cerumaille Treads
 
-item.lumoscontent.chain_scorch_helm.name=Scorchmaille Helm
+item.lumoscontent.chain_scorch_helm.name=Scorchmaille Coif
 item.lumoscontent.chain_scorch_chest.name=Scorchmaille Hauberk
-item.lumoscontent.chain_scorch_legs.name=Scorchmaille Leggings
+item.lumoscontent.chain_scorch_legs.name=Scorchmaille Chausses
 item.lumoscontent.chain_scorch_boots.name=Scorchmaille Treads
 
-item.lumoscontent.chain_pale_helm.name=Palemaille Helm
+item.lumoscontent.chain_pale_helm.name=Palemaille Coif
 item.lumoscontent.chain_pale_chest.name=Palemaille Hauberk
-item.lumoscontent.chain_pale_legs.name=Palemaille Leggings
+item.lumoscontent.chain_pale_legs.name=Palemaille Chausses
 item.lumoscontent.chain_pale_boots.name=Palemaille Treads
 
 
@@ -121,29 +121,29 @@ item.lumoscontent.scale_pale_boots.name=Palescale Treads
 
 
 item.lumoscontent.plate_copper_helm.name=Copper Plate Helm
-item.lumoscontent.plate_copper_chest.name=Copper Plate Hauberk
-item.lumoscontent.plate_copper_legs.name=Copper Plate Leggings
-item.lumoscontent.plate_copper_boots.name=Copper Plate Treads
+item.lumoscontent.plate_copper_chest.name=Copper Plate Cuirass
+item.lumoscontent.plate_copper_legs.name=Copper Plate Cuisse
+item.lumoscontent.plate_copper_boots.name=Copper Plate Sabatons
 
 item.lumoscontent.plate_red_helm.name=Crimplate Helm
-item.lumoscontent.plate_red_chest.name=Crimplate Hauberk
-item.lumoscontent.plate_red_legs.name=Crimplate Leggings
-item.lumoscontent.plate_red_boots.name=Crimplate Treads
+item.lumoscontent.plate_red_chest.name=Crimplate Cuirass
+item.lumoscontent.plate_red_legs.name=Crimplate Cuisse
+item.lumoscontent.plate_red_boots.name=Crimplate Sabatons
 
 item.lumoscontent.plate_blue_helm.name=Ceruplate Helm
-item.lumoscontent.plate_blue_chest.name=Ceruplate Hauberk
-item.lumoscontent.plate_blue_legs.name=Ceruplate Leggings
-item.lumoscontent.plate_blue_boots.name=Ceruplate Treads
+item.lumoscontent.plate_blue_chest.name=Ceruplate Cuirass
+item.lumoscontent.plate_blue_legs.name=Ceruplate Cuisse
+item.lumoscontent.plate_blue_boots.name=Ceruplate Sabatons
 
 item.lumoscontent.plate_scorch_helm.name=Scorchplate Helm
-item.lumoscontent.plate_scorch_chest.name=Scorchplate Hauberk
-item.lumoscontent.plate_scorch_legs.name=Scorchplate Leggings
-item.lumoscontent.plate_scorch_boots.name=Scorchplate Treads
+item.lumoscontent.plate_scorch_chest.name=Scorchplate Cuirass
+item.lumoscontent.plate_scorch_legs.name=Scorchplate Cuisse
+item.lumoscontent.plate_scorch_boots.name=Scorchplate Sabatons
 
 item.lumoscontent.plate_pale_helm.name=Paleplate Helm
-item.lumoscontent.plate_pale_chest.name=Paleplate Hauberk
-item.lumoscontent.plate_pale_legs.name=Paleplate Leggings
-item.lumoscontent.plate_pale_boots.name=Paleplate Treads
+item.lumoscontent.plate_pale_chest.name=Paleplate Cuirass
+item.lumoscontent.plate_pale_legs.name=Paleplate Cuisse
+item.lumoscontent.plate_pale_boots.name=Paleplate Sabatons
 
 
 
@@ -177,4 +177,7 @@ tile.lumoscontent.copper_block.name=Copper Block
 tile.lumoscontent.redbronze_block.name=Crimbronze Block
 tile.lumoscontent.scorchsteel_block.name=Scorchsteel Block
 tile.lumoscontent.palebrass_block.name=Palebrass Block
+
+item.lumoscontent.flax_fibre.name=Flax Fibre
+tile.lumoscontent.flax.name=Flax Seeds
 

@@ -1,0 +1,6 @@
+{
+  "parent": "lumoscontent:block/flax",
+  "textures": {
+    "crop": "lumoscontent:blocks/flax_stage_7"
+  }
+}
