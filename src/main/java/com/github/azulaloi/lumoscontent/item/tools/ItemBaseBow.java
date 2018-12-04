@@ -23,12 +23,19 @@ import static com.github.azulaloi.lumoscontent.util.AzUtil.unlocalizedID;
 
 public class ItemBaseBow extends Item {
 
-    public ItemBaseBow(String name) {
-        setUnlocalizedName(unlocalizedID(name));
-        setRegistryName(LumosContent.MODID, name);
+    private final BowMaterial material;
+    private final BowShape shape;
 
+
+    public ItemBaseBow(BowShape shape, BowMaterial mat) {
+        this.material = mat;
+        this.shape = shape;
+        setMaxDamage(calcDura());
         maxStackSize = 1;
-        setMaxDamage(99); //derive from mat?
+
+        setUnlocalizedName(unlocalizedID(shape.zame + "_" + mat.zame));
+        setRegistryName(LumosContent.MODID,  shape.zame + "_" + mat.zame);
+
         setCreativeTab(LumosContent.lumosTools);
 
         addPropertyOverride(new ResourceLocation("pull"), new IItemPropertyGetter() {
@@ -38,7 +45,8 @@ public class ItemBaseBow extends Item {
                 if (entityIn == null) {
                     return 0.0F;
                 } else {
-                    return (entityIn.getActiveItemStack().getItem() != ModItems.lumosBow) ? 0.0F : (float)(stack.getMaxItemUseDuration() - entityIn.getItemInUseCount()) / 20.0F;
+                    System.out.println(stack.getMaxItemUseDuration() - entityIn.getItemInUseCount());
+                    return (!isBow(entityIn.getActiveItemStack().getItem())) ? 0.0F : (float)(stack.getMaxItemUseDuration() - entityIn.getItemInUseCount()) / 20.0F; //seconds held
                 }
             }
         });
@@ -52,6 +60,19 @@ public class ItemBaseBow extends Item {
         });
     }
 
+    public boolean isBow(Item item) {
+        int flag = 0;
+
+        if (item == ModItems.longbow) flag++;
+        if (item == ModItems.shortbow) flag++;
+        if (item == ModItems.greatbow) flag++;
+
+        return flag > 0;
+    }
+
+    private int calcDura() {
+        return shape.baseDurability * material.dura;
+    }
 
     public void onPlayerStoppedUsing(ItemStack stack, World world, EntityLivingBase entityLiving, int timeLeft) {
         if (entityLiving instanceof EntityPlayer) {
@@ -68,7 +89,7 @@ public class ItemBaseBow extends Item {
                     ammo = new ItemStack(Items.ARROW);
                 }
 
-                float f = getArrowVelocity(i);
+                float f = getArrowVelocity(i, this.shape);
 
                 if ((double)f >= 0.1D) {
                     boolean flag1 = player.capabilities.isCreativeMode || (ammo.getItem() instanceof ItemArrow && ((ItemArrow) ammo.getItem()).isInfinite(ammo, stack, player));
@@ -125,16 +146,24 @@ public class ItemBaseBow extends Item {
         }
     }
 
-    public static float getArrowVelocity(int charge) {
-        float f = (float)charge / 20.0F;
-        System.out.println(charge + "/20.0F = " + f);
+    public static float getArrowVelocity(int charge, BowShape shape) {
 
-        f = (f * f + f * 2.0F) / 3.0F; //wat
-        System.out.println(f);
+        float f = (float)charge / 20.0F; //seconds held
+        System.out.println("seconds held: " + f);
+
+        switch (shape) {
+            case GREATBOW: f = (f * f + f * 2.0F) / 3.0F;
+            case RECURVE: f = (f * f + f * 2.0F) / 3.0F;
+            case SHORTBOW: f = (f * f + f * 2.0F) / 3.0F;
+            case LONGBOW: f = (f * f + f * 2.0F) / 3.0F;
+            default: f = (f * f + f * 2.0F) / 3.0F;
+        }
+
+//        f = (f * f + f * 2.0F) / 3.0F;
+//        System.out.println("uncapped v: " + f);
 
         if (f > 1.0F) {
             f = 1.0F;
-            System.out.println("f > 1, f = " + f);
         }
 
         return f;
@@ -177,7 +206,13 @@ public class ItemBaseBow extends Item {
     }
 
     public int getMaxItemUseDuration(ItemStack stack) {
-        return 72000;
+        switch (shape) {
+            case GREATBOW: return 190000;
+            case LONGBOW: return 128000;
+            case SHORTBOW: return 32000;
+            case RECURVE: return 72000;
+            default: return 72000;
+        }
     }
 
     public EnumAction getItemUseAction(ItemStack stack) {

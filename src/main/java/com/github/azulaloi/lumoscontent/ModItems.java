@@ -22,6 +22,27 @@ import static com.github.azulaloi.lumoscontent.util.AzUtil.registerItemModels;
 @Mod.EventBusSubscriber(modid=LumosContent.MODID)
 public class ModItems {
 
+    //MATERIALS
+
+    public static Item copperIngot = new BaseItem("copper_ingot");
+    public static Item redIngot = new BaseItem("redbronze_ingot");
+    public static Item blueIngot = new BaseItem("bluebronze_ingot");
+    public static Item scorchIngot = new BaseItem("scorchsteel_ingot");
+    public static Item paleIngot = new BaseItem("palebrass_ingot");
+
+    public static Item copperNugget = new BaseItem("copper_nugget");
+    public static Item redNugget = new BaseItem("redbronze_nugget");
+    public static Item blueNugget = new BaseItem("bluebronze_nugget");
+    public static Item scorchNugget = new BaseItem("scorchsteel_nugget");
+    public static Item paleNugget = new BaseItem("palebrass_nugget");
+
+    public static Item plantFibre = new BaseItem("plant_fibre");
+    public static Item bindingFibre = new BaseItem("binding_fibre");
+
+    public static Item leatherStrip = new BaseItem("leather_strip");
+
+    public static Item toolHandle = new BaseItem("tool_handle");
+
     //TOOLS
 
     public static Item flintPick = new ItemBasePick(LumosMaterials.TOOL_FLINT, "flint_pick");
@@ -67,29 +88,6 @@ public class ModItems {
     public static Item paleHoe = new ItemBaseHoe(LumosMaterials.TOOL_PALE, "pale_hoe");
     public static Item paleSword = new ItemBaseSword(LumosMaterials.TOOL_PALE, "pale_sword");
 
-    public static Item lumosBow = new ItemBaseBow("lumos_bow");
-
-
-    //MATERIALS
-
-    public static Item copperIngot = new BaseItem("copper_ingot");
-    public static Item redIngot = new BaseItem("redbronze_ingot");
-    public static Item blueIngot = new BaseItem("bluebronze_ingot");
-    public static Item scorchIngot = new BaseItem("scorchsteel_ingot");
-    public static Item paleIngot = new BaseItem("palebrass_ingot");
-
-    public static Item copperNugget = new BaseItem("copper_nugget");
-    public static Item redNugget = new BaseItem("redbronze_nugget");
-    public static Item blueNugget = new BaseItem("bluebronze_nugget");
-    public static Item scorchNugget = new BaseItem("scorchsteel_nugget");
-    public static Item paleNugget = new BaseItem("palebrass_nugget");
-
-    public static Item plantFibre = new BaseItem("plant_fibre");
-    public static Item bindingFibre = new BaseItem("binding_fibre");
-
-    public static Item leatherStrip = new BaseItem("leather_strip");
-
-    public static Item toolHandle = new BaseItem("tool_handle");
 
     //ARMOR COMPONENTS
 
@@ -201,6 +199,14 @@ public class ModItems {
     public static Item plateLegsPale = new BaseArmor(LumosMaterials.PLATE_PALEBRASS, EntityEquipmentSlot.LEGS, "plate_pale_legs");
     public static Item plateBootsPale = new BaseArmor(LumosMaterials.PLATE_PALEBRASS, EntityEquipmentSlot.FEET, "plate_pale_boots");
 
+
+    //BOWS
+    public static Item longbow = new ItemBaseBow(BowShape.LONGBOW, BowMaterial.WOOD);
+    public static Item shortbow = new ItemBaseBow(BowShape.SHORTBOW, BowMaterial.WOOD);
+    public static Item greatbow = new ItemBaseBow(BowShape.GREATBOW, BowMaterial.COPPER);
+
+
+
     //MISC
 
     public static Item redCatalyst = new BaseItem("red_catalyst");
@@ -256,8 +262,6 @@ public class ModItems {
             paleSpade,
             paleHoe,
             paleSword,
-
-            lumosBow,
 
             //MATERIALS
 
@@ -371,6 +375,10 @@ public class ModItems {
             plateTorsoPale,
             plateLegsPale,
             plateBootsPale,
+
+            shortbow,
+            longbow,
+            greatbow,
             flaxFibre
     };
 

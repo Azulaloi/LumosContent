@@ -1,5 +1,5 @@
 {
-  "parent": "lumoscontent:item/shortbow_wood",
+  "parent": "lumoscontent:item/greatbow_copper",
   "textures": {
     "layer0": "lumoscontent:items/lumos_bow_pulling_1"
   }
