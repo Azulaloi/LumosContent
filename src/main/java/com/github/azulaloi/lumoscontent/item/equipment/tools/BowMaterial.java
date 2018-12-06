@@ -1,4 +1,4 @@
-package com.github.azulaloi.lumoscontent.item.tools;
+package com.github.azulaloi.lumoscontent.item.equipment.tools;
 
 public enum BowMaterial {
         PRIMITIVE("primitive", 1, 1, 1, 1),

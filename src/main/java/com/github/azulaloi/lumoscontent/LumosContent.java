@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.gameevent.TickEvent;
 
 @Mod(modid=LumosContent.MODID, name=LumosContent.NAME, version=LumosContent.VERSION, dependencies=LumosContent.DEPENDENCIES)
 public class LumosContent {
@@ -59,4 +60,5 @@ public class LumosContent {
             return new ItemStack(ModItems.chainTorsoCopper);
         }
     };
+
 }

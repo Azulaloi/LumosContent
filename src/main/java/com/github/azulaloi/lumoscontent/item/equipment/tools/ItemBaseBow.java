@@ -1,8 +1,7 @@
-package com.github.azulaloi.lumoscontent.item.tools;
+package com.github.azulaloi.lumoscontent.item.equipment.tools;
 
 import com.github.azulaloi.lumoscontent.LumosContent;
 import com.github.azulaloi.lumoscontent.ModItems;
-import net.minecraft.enchantment.EnchantmentArrowInfinite;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;

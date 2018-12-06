@@ -2,12 +2,19 @@ package com.github.azulaloi.lumoscontent;
 
 import com.github.azulaloi.lumoscontent.item.BaseItem;
 import com.github.azulaloi.lumoscontent.item.LumosMaterials;
-import com.github.azulaloi.lumoscontent.item.Seeds;
-import com.github.azulaloi.lumoscontent.item.armor.BaseArmor;
-import com.github.azulaloi.lumoscontent.item.tools.*;
+import com.github.azulaloi.lumoscontent.item.equipment.armor.BaseArmor;
+import com.github.azulaloi.lumoscontent.item.equipment.bauble.ItemDraftCloak;
+import com.github.azulaloi.lumoscontent.item.equipment.tools.ItemBaseAxe;
+import com.github.azulaloi.lumoscontent.item.equipment.tools.ItemBasePick;
+import com.github.azulaloi.lumoscontent.item.equipment.tools.ItemBaseSword;
+import com.github.azulaloi.lumoscontent.item.equipment.tools.ItemBaseSpade;
+import com.github.azulaloi.lumoscontent.item.equipment.tools.ItemBaseHoe;
+import com.github.azulaloi.lumoscontent.item.equipment.tools.ItemBaseBow;
+import com.github.azulaloi.lumoscontent.item.equipment.tools.BowMaterial;
+import com.github.azulaloi.lumoscontent.item.equipment.tools.BowShape;
+import com.github.azulaloi.lumoscontent.item.equipment.bauble.ItemTestRing;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemArmor;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -17,7 +24,6 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.oredict.OreDictionary;
 
 import static com.github.azulaloi.lumoscontent.util.AzUtil.registerItemModel;
-import static com.github.azulaloi.lumoscontent.util.AzUtil.registerItemModels;
 
 @Mod.EventBusSubscriber(modid=LumosContent.MODID)
 public class ModItems {
@@ -216,6 +222,10 @@ public class ModItems {
 
     public static Item flaxFibre = new BaseItem("flax_fibre");
 
+    //BAUBLES
+    public static Item testRing = new ItemTestRing("test_ring");
+    public static Item draftCloak = new ItemDraftCloak("draft_cloak");
+
     public static Item[] itemsOut = {
 
             //TOOLS
@@ -379,7 +389,10 @@ public class ModItems {
             shortbow,
             longbow,
             greatbow,
-            flaxFibre
+            flaxFibre,
+
+            testRing,
+            draftCloak
     };
 
     @SubscribeEvent

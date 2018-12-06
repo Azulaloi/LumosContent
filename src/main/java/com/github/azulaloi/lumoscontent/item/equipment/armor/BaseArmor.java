@@ -1,4 +1,4 @@
-package com.github.azulaloi.lumoscontent.item.armor;
+package com.github.azulaloi.lumoscontent.item.equipment.armor;
 
 import com.github.azulaloi.lumoscontent.LumosContent;
 import net.minecraft.inventory.EntityEquipmentSlot;

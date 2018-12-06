@@ -1,9 +1,7 @@
-package com.github.azulaloi.lumoscontent.item.tools;
+package com.github.azulaloi.lumoscontent.item.equipment.tools;
 
 import com.github.azulaloi.lumoscontent.LumosContent;
 import net.minecraft.item.ItemPickaxe;
-
-import static com.github.azulaloi.lumoscontent.util.AzUtil.unlocalizedID;
 
 public class ItemBasePick extends ItemPickaxe {
 
