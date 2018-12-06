@@ -30,65 +30,100 @@ public class ModItems {
 
     //MATERIALS
 
+    public static Item oreCopper = new BaseItem("ore_copper");
+    public static Item oreIron = new BaseItem("ore_iron");
+    public static Item oreGold = new BaseItem("ore_gold");
+    public static Item oreSilver = new BaseItem("ore_silver");
+
     public static Item copperIngot = new BaseItem("copper_ingot");
+    public static Item wroughtIngot = new BaseItem("wrought_ingot");
+    public static Item silverIngot = new BaseItem("silver_ingot");
     public static Item redIngot = new BaseItem("redbronze_ingot");
     public static Item blueIngot = new BaseItem("bluebronze_ingot");
     public static Item scorchIngot = new BaseItem("scorchsteel_ingot");
     public static Item paleIngot = new BaseItem("palebrass_ingot");
 
     public static Item copperNugget = new BaseItem("copper_nugget");
+    public static Item wroughtNugget = new BaseItem("wrought_nugget");
+    public static Item silverNugget = new BaseItem("silver_nugget");
     public static Item redNugget = new BaseItem("redbronze_nugget");
     public static Item blueNugget = new BaseItem("bluebronze_nugget");
     public static Item scorchNugget = new BaseItem("scorchsteel_nugget");
     public static Item paleNugget = new BaseItem("palebrass_nugget");
 
+    public static Item fluxBasic = new BaseItem("flux_basic");
+    public static Item fluxTerra = new BaseItem("flux_terra");
+    public static Item fluxCinder = new BaseItem("flux_cinder");
+    public static Item fluxUmber = new BaseItem("flux_umber");
+    public static Item fluxOther = new BaseItem("flux_other");
+
     public static Item plantFibre = new BaseItem("plant_fibre");
     public static Item bindingFibre = new BaseItem("binding_fibre");
+    public static Item bindingSilk = new BaseItem("binding_silk");
+    public static Item bindingFlax = new BaseItem("binding_flax");
 
+    public static Item skinCow = new BaseItem("skin_cow");
+    public static Item skinPig = new BaseItem("skin_pig");
+    public static Item skinSheep = new BaseItem("skin_sheep");
+    public static Item skinRabbit = new BaseItem("skin_rabbit");
+    public static Item skinHorse = new BaseItem("skin_horse");
+    public static Item skinMule = new BaseItem("skin_mule");
+    public static Item skinDonkey = new BaseItem("skin_donkey");
+    public static Item skinLlama = new BaseItem("skin_llama");
+    public static Item skinWolf = new BaseItem("skin_wolf");
+    public static Item skinBear = new BaseItem("skin_bear");
+
+    public static Item animalSkin = new BaseItem("skin_washed");
+    public static Item animalHide = new BaseItem("skin_scutted");
+    public static Item curedHide = new BaseItem("skin_cured");
+    public static Item rawHide = new BaseItem("leather_raw");
+    public static Item tannedLeather = new BaseItem("leather_tanned");
     public static Item leatherStrip = new BaseItem("leather_strip");
 
-    public static Item toolHandle = new BaseItem("tool_handle");
+    public static Item handleBasic = new BaseItem("tool_handle_basic");
+    public static Item handleSturdy = new BaseItem("tool_handle_sturdy");
+    public static Item handleStrong = new BaseItem("tool_handle_strong");
 
     //TOOLS
 
-    public static Item flintPick = new ItemBasePick(LumosMaterials.TOOL_FLINT, "flint_pick");
+    public static Item flintPick = new ItemBasePick(LumosMaterials.TOOL_FLINT, "flint_pick", 0);
     public static Item flintAxe = new ItemBaseAxe(LumosMaterials.TOOL_FLINT, "flint_axe");
 
-    public static Item primPick = new ItemBasePick(LumosMaterials.TOOL_STONE, "stone_pick");
+    public static Item primPick = new ItemBasePick(LumosMaterials.TOOL_STONE, "stone_pick", 0);
     public static Item primAxe = new ItemBaseAxe(LumosMaterials.TOOL_STONE, "stone_axe");
     public static Item primSpade = new ItemBaseSpade(LumosMaterials.TOOL_STONE, "stone_spade");
 
-    public static Item copperPick = new ItemBasePick(LumosMaterials.TOOL_COPPER, "copper_pick");
+    public static Item copperPick = new ItemBasePick(LumosMaterials.TOOL_COPPER, "copper_pick", 1);
     public static Item copperAxe = new ItemBaseAxe(LumosMaterials.TOOL_COPPER, "copper_axe");
     public static Item copperSpade = new ItemBaseSpade(LumosMaterials.TOOL_COPPER, "copper_spade");
     public static Item copperHoe = new ItemBaseHoe(LumosMaterials.TOOL_COPPER, "copper_hoe");
     public static Item copperSword = new ItemBaseSword(LumosMaterials.TOOL_COPPER, "copper_sword");
 
-    public static Item redPick = new ItemBasePick(LumosMaterials.TOOL_REDBRONZE, "red_pick");
+    public static Item redPick = new ItemBasePick(LumosMaterials.TOOL_REDBRONZE, "red_pick", 2);
     public static Item redAxe = new ItemBaseAxe(LumosMaterials.TOOL_REDBRONZE, "red_axe");
     public static Item redSpade = new ItemBaseSpade(LumosMaterials.TOOL_REDBRONZE, "red_spade");
     public static Item redHoe = new ItemBaseHoe(LumosMaterials.TOOL_REDBRONZE, "red_hoe");
     public static Item redSword = new ItemBaseSword(LumosMaterials.TOOL_REDBRONZE, "red_sword");
 
-    public static Item bluePick = new ItemBasePick(LumosMaterials.TOOL_BLUEBRONZE, "blue_pick");
+    public static Item bluePick = new ItemBasePick(LumosMaterials.TOOL_BLUEBRONZE, "blue_pick", 2);
     public static Item blueAxe = new ItemBaseAxe(LumosMaterials.TOOL_BLUEBRONZE, "blue_axe");
     public static Item blueSpade = new ItemBaseSpade(LumosMaterials.TOOL_BLUEBRONZE, "blue_spade");
     public static Item blueHoe = new ItemBaseHoe(LumosMaterials.TOOL_BLUEBRONZE, "blue_hoe");
     public static Item blueSword = new ItemBaseSword(LumosMaterials.TOOL_BLUEBRONZE, "blue_sword");
 
-    public static Item diamantinePick = new ItemBasePick(LumosMaterials.TOOL_DIAMANTINE, "diamantine_pick");
+    public static Item diamantinePick = new ItemBasePick(LumosMaterials.TOOL_DIAMANTINE, "diamantine_pick", 3);
     public static Item diamantineAxe = new ItemBaseAxe(LumosMaterials.TOOL_DIAMANTINE, "diamantine_axe");
     public static Item diamantineSpade = new ItemBaseSpade(LumosMaterials.TOOL_DIAMANTINE, "diamantine_spade");
     public static Item diamantineHoe = new ItemBaseHoe(LumosMaterials.TOOL_DIAMANTINE, "diamantine_hoe");
     public static Item diamantineSword = new ItemBaseSword(LumosMaterials.TOOL_DIAMANTINE, "diamantine_sword");
 
-    public static Item scorchPick = new ItemBasePick(LumosMaterials.TOOL_SCORCH, "scorch_pick");
+    public static Item scorchPick = new ItemBasePick(LumosMaterials.TOOL_SCORCH, "scorch_pick", 3);
     public static Item scorchAxe = new ItemBaseAxe(LumosMaterials.TOOL_SCORCH, "scorch_axe");
     public static Item scorchSpade = new ItemBaseSpade(LumosMaterials.TOOL_SCORCH, "scorch_spade");
     public static Item scorchHoe = new ItemBaseHoe(LumosMaterials.TOOL_SCORCH, "scorch_hoe");
     public static Item scorchSword = new ItemBaseSword(LumosMaterials.TOOL_SCORCH, "scorch_sword");
 
-    public static Item palePick = new ItemBasePick(LumosMaterials.TOOL_PALE, "pale_pick");
+    public static Item palePick = new ItemBasePick(LumosMaterials.TOOL_PALE, "pale_pick", 3);
     public static Item paleAxe = new ItemBaseAxe(LumosMaterials.TOOL_PALE, "pale_axe");
     public static Item paleSpade = new ItemBaseSpade(LumosMaterials.TOOL_PALE, "pale_spade");
     public static Item paleHoe = new ItemBaseHoe(LumosMaterials.TOOL_PALE, "pale_hoe");
@@ -207,10 +242,21 @@ public class ModItems {
 
 
     //BOWS
+    public static Item longbowLimbBasic = new BaseItem("longbow_limb_basic");
+    public static Item longbowLimbStrong = new BaseItem("longbow_limb_strong");
+
+    public static Item shortbowLimbBasic = new BaseItem("shortbow_limb_basic");
+    public static Item shortbowLimbStrong = new BaseItem("shortbow_limb_strong");
+
+    public static Item greatbowLimb = new BaseItem("greatbow_limb");
+
+    public static Item bowstringFibre = new BaseItem("bowstring_fibre");
+    public static Item bowstringSilk = new BaseItem("bowstring_silk");
+    public static Item bowstringFlax = new BaseItem("bowstring_flax");
+
     public static Item longbow = new ItemBaseBow(BowShape.LONGBOW, BowMaterial.WOOD);
     public static Item shortbow = new ItemBaseBow(BowShape.SHORTBOW, BowMaterial.WOOD);
     public static Item greatbow = new ItemBaseBow(BowShape.GREATBOW, BowMaterial.COPPER);
-
 
 
     //MISC
@@ -220,7 +266,13 @@ public class ModItems {
 
     //PLANTS
 
+    public static Item flax = new BaseItem("flax_flax");
+    public static Item flaxStalk = new BaseItem("flax_stalk");
+    public static Item flaxDamp = new BaseItem("flax_damp");
+    public static Item flaxRaw = new BaseItem("flax_raw");
     public static Item flaxFibre = new BaseItem("flax_fibre");
+    public static Item flaxString = new BaseItem("flax_string");
+
 
     //BAUBLES
     public static Item testRing = new ItemTestRing("test_ring");
@@ -275,22 +327,65 @@ public class ModItems {
 
             //MATERIALS
 
+            oreCopper,
+            oreGold,
+            oreIron,
+            oreSilver,
+
             copperIngot,
+            wroughtIngot,
+            silverIngot,
             redIngot,
             blueIngot,
             scorchIngot,
             paleIngot,
 
             copperNugget,
+            wroughtNugget,
+            silverNugget,
             redNugget,
             blueNugget,
             scorchNugget,
             paleNugget,
 
+            plateCopper,
+            plateRedbronze,
+            plateBluebronze,
+            plateScorchsteel,
+            platePalebrass,
+
+            skinCow,
+            skinPig,
+            skinSheep,
+            skinHorse,
+            skinDonkey,
+            skinMule,
+            skinWolf,
+            skinBear,
+            skinLlama,
+            skinRabbit,
+
+            animalSkin,
+            animalHide,
+            curedHide,
+            rawHide,
+            tannedLeather,
+            leatherStrip,
+
             plantFibre,
             bindingFibre,
-            leatherStrip,
-            toolHandle,
+            bindingSilk,
+            bindingFlax,
+
+            handleBasic,
+            handleSturdy,
+            handleStrong,
+
+            fluxBasic,
+            fluxTerra,
+            fluxCinder,
+            fluxUmber,
+            fluxOther,
 
             //ARMOR COMPONENTS
 
@@ -386,10 +481,26 @@ public class ModItems {
             plateLegsPale,
             plateBootsPale,
 
+            longbowLimbBasic,
+            longbowLimbStrong,
+            shortbowLimbBasic,
+            shortbowLimbStrong,
+            greatbowLimb,
+
+            bowstringFibre,
+            bowstringSilk,
+            bowstringFlax,
+
             shortbow,
             longbow,
             greatbow,
+
+            flax,
+            flaxStalk,
+            flaxDamp,
+            flaxRaw,
             flaxFibre,
+            flaxString,
 
             testRing,
             draftCloak

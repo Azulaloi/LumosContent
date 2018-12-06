@@ -18,12 +18,15 @@ import static com.github.azulaloi.lumoscontent.util.AzUtil.registerItemModel;
 @Mod.EventBusSubscriber(modid=LumosContent.MODID)
 public class ModBlocks {
 
-    public static Block oreCopper = new BaseBlock("copper_ore", Material.ROCK, 3.0f, 5.0f, "pickaxe", 0);
+    public static Block oreCopper = new BaseBlock("copper_ore", Material.ROCK, 3.0f, 5.0f, "pickaxe", 1);
+    public static Block oreSilver = new BaseBlock("silver_ore", Material.ROCK, 3.0f, 5.0f, "pickaxe", 1);
+
     public static Block blockCopper = new BaseBlock("copper_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 0);
-    public static Block blockRedbronze = new BaseBlock("redbronze_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 0);
-    public static Block blockBluebronze = new BaseBlock("bluebronze_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 0);
-    public static Block blockScorchsteel = new BaseBlock("scorchsteel_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 0);
-    public static Block blockPalebrass = new BaseBlock("palebrass_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 0);
+    public static Block blockSilver = new BaseBlock("silver_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 1);
+    public static Block blockRedbronze = new BaseBlock("redbronze_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 1);
+    public static Block blockBluebronze = new BaseBlock("bluebronze_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 1);
+    public static Block blockScorchsteel = new BaseBlock("scorchsteel_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 1);
+    public static Block blockPalebrass = new BaseBlock("palebrass_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 1);
 
     public static BlockCrop blockFlax= new BlockCrop("flax", ModItems.flaxFibre) {
         @Override
@@ -34,7 +37,10 @@ public class ModBlocks {
 
     public static Block[] blocksOut = {
             oreCopper,
+            oreSilver,
+
             blockCopper,
+            blockSilver,
             blockRedbronze,
             blockBluebronze,
             blockScorchsteel,
