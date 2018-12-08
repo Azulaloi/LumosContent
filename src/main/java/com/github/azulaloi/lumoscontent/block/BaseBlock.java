@@ -12,7 +12,7 @@ public class BaseBlock extends Block {
         super(material);
         setUnlocalizedName(unlocalizedID(name));
         setRegistryName(name);
-        setCreativeTab(LumosContent.lumosTab);
+        setCreativeTab(LumosContent.lumosGeneric);
         setHarvestLevel(tool, level);
         setHardness(hardness);
         setResistance(resistance);

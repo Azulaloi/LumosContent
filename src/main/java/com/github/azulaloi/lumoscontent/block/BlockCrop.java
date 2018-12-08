@@ -10,7 +10,6 @@ import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
@@ -40,7 +39,7 @@ public abstract class BlockCrop extends BlockBush implements IGrowable, IPlantab
         setHardness(0f);
         this.setTickRandomly(true);
         this.setSoundType(SoundType.PLANT);
-        setCreativeTab(LumosContent.lumosTab);
+        setCreativeTab(LumosContent.lumosGeneric);
         this.setDefaultState(this.blockState.getBaseState().withProperty(this.getAgeProperty(), Integer.valueOf(0)));
         this.crop = crop;
 

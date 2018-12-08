@@ -40,7 +40,7 @@ public class LumosContent {
         proxy.postInit(event);
     }
 
-    public static CreativeTabs lumosTab = new CreativeTabs(MODID) {
+    public static CreativeTabs lumosGeneric = new CreativeTabs(MODID) {
         @Override
         public ItemStack getTabIconItem() {
             return new ItemStack(ModItems.redIngot);

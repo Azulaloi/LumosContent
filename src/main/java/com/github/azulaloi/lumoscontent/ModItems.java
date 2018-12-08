@@ -72,11 +72,11 @@ public class ModItems {
     public static Item skinLlama = new BaseItem("skin_llama");
     public static Item skinWolf = new BaseItem("skin_wolf");
     public static Item skinBear = new BaseItem("skin_bear");
+    public static Item skinGeneric = new BaseItem("skin_generic");
 
-    public static Item animalSkin = new BaseItem("skin_washed");
-    public static Item animalHide = new BaseItem("skin_scutted");
-    public static Item curedHide = new BaseItem("skin_cured");
-    public static Item rawHide = new BaseItem("leather_raw");
+    public static Item animalSkin = new BaseItem("hide");
+    public static Item curedSkin = new BaseItem("hide_cured");
+    public static Item rawHide = new BaseItem("leather_rawhide");
     public static Item tannedLeather = new BaseItem("leather_tanned");
     public static Item leatherStrip = new BaseItem("leather_strip");
 
@@ -137,6 +137,12 @@ public class ModItems {
     public static Item scaleCopper = new BaseItem("copper_scale");
     public static Item scalesheetCopper = new BaseItem("copper_scalesheet");
     public static Item plateCopper = new BaseItem("copper_plate");
+
+    public static Item chainlinkWrought = new BaseItem("wrought_chainlink");
+    public static Item chainsheetWrought = new BaseItem("wrought_chainsheet");
+    public static Item scaleWrought = new BaseItem("wrought_scale");
+    public static Item scalesheetWrought = new BaseItem("wrought_scalesheet");
+    public static Item plateWrought = new BaseItem("wrought_plate");
 
     public static Item chainlinkRedbronze = new BaseItem("red_chainlink");
     public static Item chainsheetRedbronze = new BaseItem("red_chainsheet");
@@ -325,7 +331,7 @@ public class ModItems {
             paleHoe,
             paleSword,
 
-            //MATERIALS
+            //METALS
 
             oreCopper,
             oreGold,
@@ -349,43 +355,13 @@ public class ModItems {
             paleNugget,
 
             plateCopper,
+            plateWrought,
             plateRedbronze,
             plateBluebronze,
             plateScorchsteel,
             platePalebrass,
 
-            skinCow,
-            skinPig,
-            skinSheep,
-            skinHorse,
-            skinDonkey,
-            skinMule,
-            skinWolf,
-            skinBear,
-            skinLlama,
-            skinRabbit,
 
-            animalSkin,
-            animalHide,
-            curedHide,
-            rawHide,
-            tannedLeather,
-            leatherStrip,
-
-            plantFibre,
-            bindingFibre,
-            bindingSilk,
-            bindingFlax,
-
-            handleBasic,
-            handleSturdy,
-            handleStrong,
-
-            fluxBasic,
-            fluxTerra,
-            fluxCinder,
-            fluxUmber,
-            fluxOther,
 
             //ARMOR COMPONENTS
 
@@ -393,6 +369,11 @@ public class ModItems {
             chainsheetCopper,
             scaleCopper,
             scalesheetCopper,
+
+            chainlinkWrought,
+            chainsheetWrought,
+            scaleWrought,
+            scalesheetWrought,
 
             chainlinkRedbronze,
             chainsheetRedbronze,
@@ -413,6 +394,39 @@ public class ModItems {
             chainsheetPalebrass,
             scalePalebrass,
             scalesheetPalebrass ,
+
+            skinCow,
+            skinPig,
+            skinSheep,
+            skinHorse,
+            skinDonkey,
+            skinMule,
+            skinWolf,
+            skinBear,
+            skinLlama,
+            skinRabbit,
+            skinGeneric,
+
+            animalSkin,
+            curedSkin,
+            rawHide,
+            tannedLeather,
+            leatherStrip,
+
+            plantFibre,
+            bindingFibre,
+            bindingSilk,
+            bindingFlax,
+
+            handleBasic,
+            handleSturdy,
+            handleStrong,
+
+            fluxBasic,
+            fluxTerra,
+            fluxCinder,
+            fluxUmber,
+            fluxOther,
 
             //ARMOR
 

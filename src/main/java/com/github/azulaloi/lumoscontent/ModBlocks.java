@@ -22,6 +22,7 @@ public class ModBlocks {
     public static Block oreSilver = new BaseBlock("silver_ore", Material.ROCK, 3.0f, 5.0f, "pickaxe", 1);
 
     public static Block blockCopper = new BaseBlock("copper_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 0);
+    public static Block blockWrought = new BaseBlock("wrought_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 0);
     public static Block blockSilver = new BaseBlock("silver_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 1);
     public static Block blockRedbronze = new BaseBlock("redbronze_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 1);
     public static Block blockBluebronze = new BaseBlock("bluebronze_block", Material.IRON, 3.0f, 5.0f, "pickaxe", 1);
@@ -40,6 +41,7 @@ public class ModBlocks {
             oreSilver,
 
             blockCopper,
+            blockWrought,
             blockSilver,
             blockRedbronze,
             blockBluebronze,

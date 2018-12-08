@@ -11,7 +11,7 @@ public class BaseItem extends Item {
     public BaseItem(String name) {
         setUnlocalizedName(unlocalizedID(name));
         setRegistryName(name);
-        setCreativeTab(LumosContent.lumosTab);
+        setCreativeTab(LumosContent.lumosGeneric);
     }
 
     public BaseItem(String name, CreativeTabs tab) {
