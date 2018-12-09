@@ -99,6 +99,12 @@ public class ModItems {
     public static Item copperHoe = new ItemBaseHoe(LumosMaterials.TOOL_COPPER, "copper_hoe");
     public static Item copperSword = new ItemBaseSword(LumosMaterials.TOOL_COPPER, "copper_sword");
 
+    public static Item wroughtPick = new ItemBasePick(LumosMaterials.TOOL_WROUGHT, "wrought_pick", 1);
+    public static Item wroughtAxe = new ItemBaseAxe(LumosMaterials.TOOL_WROUGHT, "wrought_axe");
+    public static Item wroughtSpade = new ItemBaseSpade(LumosMaterials.TOOL_WROUGHT, "wrought_spade");
+    public static Item wroughtHoe = new ItemBaseHoe(LumosMaterials.TOOL_WROUGHT, "wrought_hoe");
+    public static Item wroughtSword = new ItemBaseSword(LumosMaterials.TOOL_WROUGHT, "wrought_sword");
+
     public static Item redPick = new ItemBasePick(LumosMaterials.TOOL_REDBRONZE, "red_pick", 2);
     public static Item redAxe = new ItemBaseAxe(LumosMaterials.TOOL_REDBRONZE, "red_axe");
     public static Item redSpade = new ItemBaseSpade(LumosMaterials.TOOL_REDBRONZE, "red_spade");
@@ -300,6 +306,12 @@ public class ModItems {
             copperSpade,
             copperHoe,
             copperSword,
+
+            wroughtPick,
+            wroughtAxe,
+            wroughtSpade,
+            wroughtHoe,
+            wroughtSword,
 
             redPick,
             redAxe,

@@ -23,7 +23,10 @@ public class LumosMaterials {
             "PRIMITIVE_STONE", 0, 96, 1.5F, 0.5F, 5);
 
     public static final Item.ToolMaterial TOOL_COPPER = EnumHelper.addToolMaterial(
-            "COPPER", 1, 172, 2.0F, 1.0F, 10);
+            "COPPER", 1, 172, 2.0F, 1.0F, 5);
+
+    public static final Item.ToolMaterial TOOL_WROUGHT = EnumHelper.addToolMaterial(
+            "WROUGHT", 1, 256, 2.25F, 1.0F, 7);
 
     public static final Item.ToolMaterial TOOL_REDBRONZE = EnumHelper.addToolMaterial(
             "REDBRONZE", 2, 356, 2.5F, 1.5F, 14);
