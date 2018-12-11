@@ -84,6 +84,8 @@ public class ModItems {
     public static Item handleSturdy = new BaseItem("tool_handle_sturdy");
     public static Item handleStrong = new BaseItem("tool_handle_strong");
 
+    public static Item padding = new BaseItem("padding");
+
     //TOOLS
 
     public static Item flintPick = new ItemBasePick(LumosMaterials.TOOL_FLINT, "flint_pick", 0);
@@ -143,36 +145,42 @@ public class ModItems {
     public static Item scaleCopper = new BaseItem("copper_scale");
     public static Item scalesheetCopper = new BaseItem("copper_scalesheet");
     public static Item plateCopper = new BaseItem("copper_plate");
+    public static Item plateCurveCopper = new BaseItem("copper_plate_curved");
 
     public static Item chainlinkWrought = new BaseItem("wrought_chainlink");
     public static Item chainsheetWrought = new BaseItem("wrought_chainsheet");
     public static Item scaleWrought = new BaseItem("wrought_scale");
     public static Item scalesheetWrought = new BaseItem("wrought_scalesheet");
     public static Item plateWrought = new BaseItem("wrought_plate");
+    public static Item plateCurveWrought = new BaseItem("wrought_plate_curved");
 
     public static Item chainlinkRedbronze = new BaseItem("red_chainlink");
     public static Item chainsheetRedbronze = new BaseItem("red_chainsheet");
     public static Item scaleRedbronze = new BaseItem("red_scale");
     public static Item scalesheetRedbronze = new BaseItem("red_scalesheet");
     public static Item plateRedbronze = new BaseItem("red_plate");
+    public static Item plateCurveRedbronze = new BaseItem("red_plate_curved");
 
     public static Item chainlinkBluebronze = new BaseItem("blue_chainlink");
     public static Item chainsheetBluebronze = new BaseItem("blue_chainsheet");
     public static Item scaleBluebronze = new BaseItem("blue_scale");
     public static Item scalesheetBluebronze = new BaseItem("blue_scalesheet");
     public static Item plateBluebronze = new BaseItem("blue_plate");
+    public static Item plateCurveBluebronze = new BaseItem("blue_plate_curved");
 
     public static Item chainlinkScorchsteel = new BaseItem("scorch_chainlink");
     public static Item chainsheetScorchsteel = new BaseItem("scorch_chainsheet");
     public static Item scaleScorchsteel = new BaseItem("scorch_scale");
     public static Item scalesheetScorchsteel = new BaseItem("scorch_scalesheet");
     public static Item plateScorchsteel = new BaseItem("scorch_plate");
+    public static Item plateCurveScorchsteel = new BaseItem("scorch_plate_curved");
 
     public static Item chainlinkPalebrass = new BaseItem("pale_chainlink");
     public static Item chainsheetPalebrass = new BaseItem("pale_chainsheet");
     public static Item scalePalebrass = new BaseItem("pale_scale");
     public static Item scalesheetPalebrass = new BaseItem("pale_scalesheet");
     public static Item platePalebrass = new BaseItem("pale_plate");
+    public static Item plateCurvePalebrass = new BaseItem("pale_plate_curved");
 
 
     //ARMOR
@@ -373,7 +381,12 @@ public class ModItems {
             plateScorchsteel,
             platePalebrass,
 
-
+            plateCurveCopper,
+            plateCurveWrought,
+            plateCurveRedbronze,
+            plateCurveBluebronze,
+            plateCurveScorchsteel,
+            plateCurvePalebrass,
 
             //ARMOR COMPONENTS
 
@@ -439,6 +452,8 @@ public class ModItems {
             fluxCinder,
             fluxUmber,
             fluxOther,
+
+            padding,
 
             //ARMOR
 

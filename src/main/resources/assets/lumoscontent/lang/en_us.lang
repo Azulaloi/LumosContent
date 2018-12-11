@@ -63,7 +63,7 @@ item.lumoscontent.red_catalyst.name=Crimson Catalyst
 item.lumoscontent.blue_catalyst.name=Cerulean Catalyst
 
 material.lumoscontent.copper=Copper
-material.lumoscontent.iron=Wrought Iron
+material.lumoscontent.wrought=Wrought Iron
 material.lumoscontent.crimbronze=Crimbronze
 material.lumoscontent.cerubronze=Cerubronze
 material.lumoscontent.diamantine=Diamantine
@@ -154,36 +154,42 @@ item.lumoscontent.copper_chainsheet.name=Copper Chainsheet
 item.lumoscontent.copper_scale.name=Copper Scale
 item.lumoscontent.copper_scalesheet.name=Copper Scalesheet
 item.lumoscontent.copper_plate.name=Copper Plate
+item.lumoscontent.copper_plate_curved.name=Copper Curved Plate
 
 item.lumoscontent.wrought_chainlink.name=Wrought Chainlink
 item.lumoscontent.wrought_chainsheet.name=Wrought Chainsheet
 item.lumoscontent.wrought_scale.name=Wrought Scale
 item.lumoscontent.wrought_scalesheet.name=Wrought Scalesheet
 item.lumoscontent.wrought_plate.name=Wrought Plate
+item.lumoscontent.wrought_plate_curved.name=Wrought Curved Plate
 
 item.lumoscontent.red_chainlink.name=Crimbronze Chainlink
 item.lumoscontent.red_chainsheet.name=Crimbronze Chainsheet
 item.lumoscontent.red_scale.name=Crimbronze Scale
 item.lumoscontent.red_scalesheet.name=Crimbronze Scalesheet
 item.lumoscontent.red_plate.name=Crimbronze Plate
+item.lumoscontent.red_plate_curved.name=Crimbronze Curved Plate
 
 item.lumoscontent.blue_chainlink.name=Cerubronze Chainlink
 item.lumoscontent.blue_chainsheet.name=Cerubronze Chainsheet
 item.lumoscontent.blue_scale.name=Cerubronze Scale
 item.lumoscontent.blue_scalesheet.name=Cerubronze Scalesheet
 item.lumoscontent.blue_plate.name=Cerubronze Plate
+item.lumoscontent.blue_plate_curved.name=Cerubronze Curved Plate
 
 item.lumoscontent.scorch_chainlink.name=Scorchsteel Chainlink
 item.lumoscontent.scorch_chainsheet.name=Scorchsteel Chainsheet
 item.lumoscontent.scorch_scale.name=Scorchsteel Scale
 item.lumoscontent.scorch_scalesheet.name=Scorchsteel Scalesheet
 item.lumoscontent.scorch_plate.name=Scorchsteel Plate
+item.lumoscontent.scorch_plate_curved.name=Scorchsteel Curved Plate
 
 item.lumoscontent.pale_chainlink.name=Palebrass Chainlink
 item.lumoscontent.pale_chainsheet.name=Palebrass Chainsheet
 item.lumoscontent.pale_scale.name=Palebrass Scale
 item.lumoscontent.pale_scalesheet.name=Palebrass Scalesheet
 item.lumoscontent.pale_plate.name=Palebrass Plate
+item.lumoscontent.pale_plate_curved.name=Palebrass Curved Plate
 
 item.lumoscontent.flax_fibre.name=Flax Fibre
 tile.lumoscontent.flax.name=Flax Seeds
@@ -191,6 +197,7 @@ tile.lumoscontent.flax.name=Flax Seeds
 item.lumoscontent.draft_cloak.name=Draftrider's Cloak
 
 item.lumoscontent.plant_fibre.name=Plant Fibre
+item.lumoscontent.padding.name=Padding
 
 item.lumoscontent.binding_fibre.name=Fibrous Binding
 item.lumoscontent.binding_silk.name=Silken Binding
