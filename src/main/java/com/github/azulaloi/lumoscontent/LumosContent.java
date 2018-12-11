@@ -40,21 +40,21 @@ public class LumosContent {
         proxy.postInit(event);
     }
 
-    public static CreativeTabs lumosGeneric = new CreativeTabs(MODID) {
+    public static CreativeTabs lumosGeneric = new CreativeTabs(MODID + ".generic") {
         @Override
         public ItemStack getTabIconItem() {
             return new ItemStack(ModItems.redIngot);
         }
     };
 
-    public static CreativeTabs lumosTools = new CreativeTabs(MODID) {
+    public static CreativeTabs lumosTools = new CreativeTabs(MODID + ".tools") {
         @Override
         public ItemStack getTabIconItem() {
             return new ItemStack(ModItems.redPick);
         }
     };
 
-    public static CreativeTabs lumosArmor = new CreativeTabs(MODID) {
+    public static CreativeTabs lumosArmor = new CreativeTabs(MODID + ".armor") {
         @Override
         public ItemStack getTabIconItem() {
             return new ItemStack(ModItems.chainTorsoCopper);
